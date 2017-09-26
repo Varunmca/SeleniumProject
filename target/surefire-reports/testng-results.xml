@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[entered user name:-10021 and object is [[RemoteWebDriver: chrome on WINDOWS (3945a294d5ac5fb9a254c74f3460c53afa9e1e46)] -> xpath: //input[@id='username']]]]>
+    </line>
+    <line>
+      <![CDATA[entered password:-passpass and object is [[RemoteWebDriver: chrome on WINDOWS (3945a294d5ac5fb9a254c74f3460c53afa9e1e46)] -> xpath: //input[@id='password']]]]>
+    </line>
+    <line>
+      <![CDATA[clicked on sublit butto and object is:-Proxy element for: DefaultElementLocator 'By.xpath: //a[@id='btn_login']']]>
+    </line>
+    <line>
+      <![CDATA[logout is dispalyed and object is:-[[RemoteWebDriver: chrome on WINDOWS (3945a294d5ac5fb9a254c74f3460c53afa9e1e46)] -> xpath: //a[contains(text(),'Logout')]]]]>
+    </line>
+    <line>
+      <![CDATA[logout is dispalyed and object is:-[[RemoteWebDriver: chrome on WINDOWS (3945a294d5ac5fb9a254c74f3460c53afa9e1e46)] -> xpath: //a[contains(text(),'Logout')]]]]>
+    </line>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="40137" started-at="2017-09-26T09:01:15Z" finished-at="2017-09-26T09:01:55Z">
+    <groups>
+    </groups>
+    <test name="HomePageTest" duration-ms="40137" started-at="2017-09-26T09:01:15Z" finished-at="2017-09-26T09:01:55Z">
+      <class name="org.vwdautomation.test.homepage.VerifyLoginWithValidCredentails">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.vwdautomation.test.homepage.VerifyLoginWithValidCredentails@b9e255]" name="setUp" is-config="true" duration-ms="9295" started-at="2017-09-26T14:31:15Z" finished-at="2017-09-26T14:31:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.vwdautomation.test.homepage.VerifyLoginWithValidCredentails@b9e255]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2017-09-26T14:31:25Z" finished-at="2017-09-26T14:31:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.vwdautomation.test.homepage.VerifyLoginWithValidCredentails.verifyLoginWithValidCredentails() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLoginWithValidCredentails()[pri:0, instance:org.vwdautomation.test.homepage.VerifyLoginWithValidCredentails@b9e255]" name="verifyLoginWithValidCredentails" duration-ms="26574" started-at="2017-09-26T14:31:25Z" finished-at="2017-09-26T14:31:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[entered user name:-10021 and object is [[RemoteWebDriver: chrome on WINDOWS (3945a294d5ac5fb9a254c74f3460c53afa9e1e46)] -> xpath: //input[@id='username']]]]>
+            </line>
+            <line>
+              <![CDATA[entered password:-passpass and object is [[RemoteWebDriver: chrome on WINDOWS (3945a294d5ac5fb9a254c74f3460c53afa9e1e46)] -> xpath: //input[@id='password']]]]>
+            </line>
+            <line>
+              <![CDATA[clicked on sublit butto and object is:-Proxy element for: DefaultElementLocator 'By.xpath: //a[@id='btn_login']']]>
+            </line>
+            <line>
+              <![CDATA[logout is dispalyed and object is:-[[RemoteWebDriver: chrome on WINDOWS (3945a294d5ac5fb9a254c74f3460c53afa9e1e46)] -> xpath: //a[contains(text(),'Logout')]]]]>
+            </line>
+            <line>
+              <![CDATA[logout is dispalyed and object is:-[[RemoteWebDriver: chrome on WINDOWS (3945a294d5ac5fb9a254c74f3460c53afa9e1e46)] -> xpath: //a[contains(text(),'Logout')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentails -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:org.vwdautomation.test.homepage.VerifyLoginWithValidCredentails@b9e255]" name="endTest" is-config="true" duration-ms="4178" started-at="2017-09-26T14:31:51Z" finished-at="2017-09-26T14:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:org.vwdautomation.test.homepage.VerifyLoginWithValidCredentails@b9e255]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-09-26T14:31:51Z" finished-at="2017-09-26T14:31:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithValidCredentails status=SUCCESS method=VerifyLoginWithValidCredentails.verifyLoginWithValidCredentails()[pri:0, instance:org.vwdautomation.test.homepage.VerifyLoginWithValidCredentails@b9e255] output=entered user name:-10021 and object is [[RemoteWebDriver: chrome on WINDOWS (3945a294d5ac5fb9a254c74f3460c53afa9e1e46)] -> xpath: //input[@id='username']]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- org.vwdautomation.test.homepage.VerifyLoginWithValidCredentails -->
+    </test> <!-- HomePageTest -->
+  </suite> <!-- Regression Suite -->
+</testng-results>

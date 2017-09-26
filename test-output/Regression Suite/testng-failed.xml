@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]" parallel="classes">
+  <test name="HomePageTest(failed)" parallel="classes">
+    <classes>
+      <class name="org.vwdautomation.test.homepage.VerifyLoginWithInvalidCredentails">
+        <methods>
+          <include name="verifyLoginWithValidCredentails"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- org.vwdautomation.test.homepage.VerifyLoginWithInvalidCredentails -->
+    </classes>
+  </test> <!-- HomePageTest(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->
