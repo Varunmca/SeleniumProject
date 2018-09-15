@@ -26,7 +26,7 @@ public class VerifyLoginWithInvalidCredentails extends TestBase{
 		//homepage.switchToFrame();
 		homePage.loginToApplication("10021", "passpass11");
 		System.out.println(homePage.getInvalidLoginText());
-		Assert.assertEquals(homePage.getInvalidLoginText(), "The UserID or password you entered is incorrect1.");
+		Assert.assertEquals(homePage.getInvalidLoginText(), "The UserID or password you entered is incorrect.");
 		log.info("=========== Finished verifyLoginWithInvalidCredentails Test=============");
 		//homepage.switchToDefaultContent();
     }

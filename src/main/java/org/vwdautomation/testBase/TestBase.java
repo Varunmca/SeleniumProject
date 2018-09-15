@@ -39,7 +39,7 @@ import com.relevantcodes.extentreports.LogStatus;
 public class TestBase {
 	
 	public static final Logger log = Logger.getLogger(TestBase.class.getName());
-	public WebDriver dr;
+	public static WebDriver dr;
 	
 	public Properties OR =  new Properties();
 	public static ExtentReports extent;

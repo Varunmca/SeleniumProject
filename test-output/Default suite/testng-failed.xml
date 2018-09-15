@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="org.vwdautomation.test.homepage.VerifyLoginWithInvalidCredentails">
+      <class name="org.vwdautomation.test.homepage.VerifyLoginWithValidCredentails">
         <methods>
-          <include name="verifyLoginWithValidCredentails"/>
           <include name="setUp"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
+          <include name="verifyLoginWithValidCredentails"/>
           <include name="endTest"/>
         </methods>
-      </class> <!-- org.vwdautomation.test.homepage.VerifyLoginWithInvalidCredentails -->
+      </class> <!-- org.vwdautomation.test.homepage.VerifyLoginWithValidCredentails -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

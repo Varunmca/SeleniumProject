@@ -241,3 +241,41 @@
 2017-09-26 14:31:51 INFO  HomePage:36 - logout is dispalyed and object is:-[[RemoteWebDriver: chrome on WINDOWS (3945a294d5ac5fb9a254c74f3460c53afa9e1e46)] -> xpath: //a[contains(text(),'Logout')]]
 2017-09-26 14:31:51 INFO  TestBase:29 - =========== Finished verifyLoginWithValidCredentails Test=============
 2017-09-26 14:31:55 INFO  TestBase:146 - browser closed
+2018-08-04 12:39:01 INFO  TestBase:127 - navigating to :-http://valleystagingelb-906687222.us-west-2.elb.amazonaws.com/vwdlogin.jsp
+2018-08-04 12:39:27 INFO  TestBase:127 - navigating to :-http://valleystagingelb-906687222.us-west-2.elb.amazonaws.com/vwdlogin.jsp
+2018-08-04 12:39:39 INFO  TestBase:24 - =========== Starting verifyLoginWithInValidCredentails Test=============
+2018-08-04 12:39:43 INFO  HomePage:36 - entered user name:-10021 and object is [[RemoteWebDriver: chrome on WINDOWS (136943f5a1f28dfd25c61e68e1a0f610f0027d2a)] -> xpath: //input[@id='username']]
+2018-08-04 12:39:48 INFO  HomePage:36 - entered password:-passpass11 and object is [[RemoteWebDriver: chrome on WINDOWS (136943f5a1f28dfd25c61e68e1a0f610f0027d2a)] -> xpath: //input[@id='password']]
+2018-08-04 12:39:49 INFO  HomePage:36 - clicked on sublit butto and object is:-[[RemoteWebDriver: chrome on WINDOWS (136943f5a1f28dfd25c61e68e1a0f610f0027d2a)] -> xpath: //a[@id='btn_login']]
+2018-08-04 12:39:50 INFO  HomePage:36 - erorr message is:-The UserID or password you entered is incorrect.
+2018-08-04 12:39:51 INFO  HomePage:36 - erorr message is:-The UserID or password you entered is incorrect.
+2018-08-04 12:39:53 INFO  TestBase:146 - browser closed
+2018-08-04 12:40:56 INFO  TestBase:105 - creating object of chrome
+2018-08-04 12:41:25 INFO  TestBase:127 - navigating to :-http://valleystagingelb-906687222.us-west-2.elb.amazonaws.com/vwdlogin.jsp
+2018-08-04 12:41:35 INFO  TestBase:146 - browser closed
+2018-08-04 12:47:45 INFO  TestBase:105 - creating object of chrome
+2018-08-04 12:47:49 INFO  TestBase:127 - navigating to :-http://valleystagingelb-906687222.us-west-2.elb.amazonaws.com/vwdlogin.jsp
+2018-08-04 12:47:56 INFO  TestBase:146 - browser closed
+2018-08-04 12:49:11 INFO  TestBase:105 - creating object of chrome
+2018-08-04 12:49:16 INFO  TestBase:127 - navigating to :-http://valleystagingelb-906687222.us-west-2.elb.amazonaws.com/vwdlogin.jsp
+2018-08-04 12:49:25 INFO  TestBase:24 - =========== Starting verifyLoginWithInValidCredentails Test=============
+2018-08-04 12:49:29 INFO  HomePage:36 - entered user name:-10021 and object is [[ChromeDriver: chrome on XP (97a065236cf6685e7e0aafecf0bc3f40)] -> xpath: //input[@id='username']]
+2018-08-04 12:49:32 INFO  HomePage:36 - entered password:-passpass11 and object is [[ChromeDriver: chrome on XP (97a065236cf6685e7e0aafecf0bc3f40)] -> xpath: //input[@id='password']]
+2018-08-04 12:49:33 INFO  HomePage:36 - clicked on sublit butto and object is:-[[ChromeDriver: chrome on XP (97a065236cf6685e7e0aafecf0bc3f40)] -> xpath: //a[@id='btn_login']]
+2018-08-04 12:49:33 INFO  HomePage:36 - erorr message is:-The UserID or password you entered is incorrect.
+2018-08-04 12:49:33 INFO  HomePage:36 - erorr message is:-The UserID or password you entered is incorrect.
+2018-08-04 12:49:35 INFO  TestBase:146 - browser closed
+2018-08-04 16:29:11 INFO  TestBase:105 - creating object of chrome
+2018-08-04 16:30:06 INFO  TestBase:127 - navigating to :-http://valleystagingelb-906687222.us-west-2.elb.amazonaws.com/vwdlogin.jsp
+2018-08-04 16:30:21 INFO  TestBase:23 - =========== Starting verifyLoginWithValidCredentails Test=============
+2018-08-04 16:30:26 INFO  HomePage:36 - entered user name:-10021 and object is [[ChromeDriver: chrome on XP (53198748435eeaba7ffd1babe21fd401)] -> xpath: //input[@id='username']]
+2018-08-04 16:30:29 INFO  HomePage:36 - entered password:-passpass and object is [[ChromeDriver: chrome on XP (53198748435eeaba7ffd1babe21fd401)] -> xpath: //input[@id='password']]
+2018-08-04 16:30:31 INFO  HomePage:36 - clicked on sublit butto and object is:-[[ChromeDriver: chrome on XP (53198748435eeaba7ffd1babe21fd401)] -> xpath: //a[@id='btn_login']]
+2018-08-04 16:30:55 INFO  TestBase:146 - browser closed
+2018-08-04 22:16:04 INFO  TestBase:105 - creating object of chrome
+2018-08-04 22:16:30 INFO  TestBase:127 - navigating to :-http://valleystagingelb-906687222.us-west-2.elb.amazonaws.com/vwdlogin.jsp
+2018-08-04 22:16:38 INFO  TestBase:23 - =========== Starting verifyLoginWithValidCredentails Test=============
+2018-08-04 22:16:42 INFO  HomePage:36 - entered user name:-10021 and object is [[ChromeDriver: chrome on XP (ea6da3d6805edd1727ab4f293cc40377)] -> xpath: //input[@id='username']]
+2018-08-04 22:16:45 INFO  HomePage:36 - entered password:-passpass and object is [[ChromeDriver: chrome on XP (ea6da3d6805edd1727ab4f293cc40377)] -> xpath: //input[@id='password']]
+2018-08-04 22:16:46 INFO  HomePage:36 - clicked on sublit butto and object is:-[[ChromeDriver: chrome on XP (ea6da3d6805edd1727ab4f293cc40377)] -> xpath: //a[@id='btn_login']]
+2018-08-04 22:17:10 INFO  TestBase:146 - browser closed
