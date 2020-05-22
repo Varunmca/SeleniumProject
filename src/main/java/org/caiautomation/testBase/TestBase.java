@@ -1,4 +1,4 @@
-package org.vwdautomation.testBase;
+package org.caiautomation.testBase;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -49,7 +49,7 @@ public class TestBase {
 	 static{
     	 Calendar calendar = Calendar.getInstance();
   		 SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
-  		 extent = new ExtentReports(System.getProperty("user.dir") +"/src/main/java/org/vwdautomation/report/test"+formater.format(calendar.getTime())+".html", true);
+  		 extent = new ExtentReports(System.getProperty("user.dir") +"/src/main/java/org/caiautomation/report/test"+formater.format(calendar.getTime())+".html", true);
      }
 	
 	public void loadData() throws IOException{

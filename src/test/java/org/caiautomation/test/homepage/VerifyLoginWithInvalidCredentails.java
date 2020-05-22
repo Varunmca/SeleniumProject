@@ -1,13 +1,13 @@
-package org.vwdautomation.test.homepage;
+package org.caiautomation.test.homepage;
 
 import java.io.IOException;
 
+import org.caiautomation.testBase.TestBase;
+import org.caiautomation.uiAction.HomePage;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import org.vwdautomation.testBase.TestBase;
-import org.vwdautomation.uiAction.HomePage;
 
 public class VerifyLoginWithInvalidCredentails extends TestBase{
 

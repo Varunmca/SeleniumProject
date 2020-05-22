@@ -1,12 +1,12 @@
-package org.vwdautomation.uiAction;
+package org.caiautomation.uiAction;
 
 import org.apache.log4j.Logger;
+import org.caiautomation.testBase.TestBase;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
-import org.vwdautomation.testBase.TestBase;
 public class HomePage extends TestBase{
 	
 	
